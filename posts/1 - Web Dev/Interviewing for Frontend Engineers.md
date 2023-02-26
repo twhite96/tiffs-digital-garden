@@ -231,6 +231,4 @@ function reverse(str) {
 - `[...item]`
   - Spreads items into an array
 
-
-> [!INFO]
 > See also: [[1 - Web Dev/Basic Data Structures and Algorithms]]

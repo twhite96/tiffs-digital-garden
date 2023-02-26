@@ -1,5 +1,4 @@
 # tiff's second brain
-<a style="display: none;" rel="me" href="https://hachyderm.io/@tiff">Mastodon</a>
 > You know what I like more than these materialistic things? **Knowledge**.
 > 
 > -Tai Lopez

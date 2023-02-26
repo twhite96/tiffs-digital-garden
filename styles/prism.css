@@ -1,107 +1,133 @@
-/* PrismJS 1.28.0
-https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript */
-pre {
-    background-color: #f5f2f0
+/*
+ * Laserwave Theme originally by Jared Jones for Visual Studio Code
+ * https://github.com/Jaredk3nt/laserwave
+ *
+ * Ported for PrismJS by Simon Jespersen [https://github.com/simjes]
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	background: #27212e;
+	color: #ffffff;
+	font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace; /* this is the default */
+	/* The following properties are standard, please leave them as they are */
+	font-size: 1em;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	line-height: 1.5;
+	-moz-tab-size: 2;
+	-o-tab-size: 2;
+	tab-size: 2;
+	/* The following properties are also standard */
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
 }
 
-code[class*=language-], pre[class*=language-] {
-    color: #000;
-    background: 0 0;
-    text-shadow: 0 1px #fff;
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    font-size: 1em;
-    text-align: left;
-    white-space: pre;
-    word-spacing: normal;
-    word-break: normal;
-    word-wrap: normal;
-    line-height: 1.5;
-    -moz-tab-size: 4;
-    -o-tab-size: 4;
-    tab-size: 4;
-    -webkit-hyphens: none;
-    -moz-hyphens: none;
-    -ms-hyphens: none;
-    hyphens: none
+code[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection,
+pre[class*="language-"]::-moz-selection,
+pre[class*="language-"] ::-moz-selection {
+	background: #eb64b927;
+	color: inherit;
 }
 
-code[class*=language-] ::-moz-selection, code[class*=language-]::-moz-selection, pre[class*=language-] ::-moz-selection, pre[class*=language-]::-moz-selection {
-    text-shadow: none;
-    background: #b3d4fc
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection,
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection {
+	background: #eb64b927;
+	color: inherit;
 }
 
-code[class*=language-] ::selection, code[class*=language-]::selection, pre[class*=language-] ::selection, pre[class*=language-]::selection {
-    text-shadow: none;
-    background: #b3d4fc
+/* Properties specific to code blocks */
+pre[class*="language-"] {
+	padding: 1em; /* this is standard */
+	margin: 0.5em 0; /* this is the default */
+	overflow: auto; /* this is standard */
+	border-radius: 0.5em;
 }
 
-@media print {
-    code[class*=language-], pre[class*=language-] {
-        text-shadow: none
-    }
+/* Properties specific to inline code */
+:not(pre) > code[class*="language-"] {
+	padding: 0.2em 0.3em;
+	border-radius: 0.5rem;
+	white-space: normal; /* this is standard */
 }
 
-pre[class*=language-] {
-    padding: 1em;
-    margin: .5em 0;
-    overflow: auto
-}
-
-:not(pre) > code[class*=language-], pre[class*=language-] {
-    background: #f5f2f0
-}
-
-:not(pre) > code[class*=language-] {
-    padding: .1em;
-    border-radius: .3em;
-    white-space: normal
-}
-
-.token.cdata, .token.comment, .token.doctype, .token.prolog {
-    color: #708090
+.token.comment,
+.token.prolog,
+.token.cdata {
+	color: #91889b;
 }
 
 .token.punctuation {
-    color: #999
+	color: #7b6995;
 }
 
-.token.namespace {
-    opacity: .7
+.token.builtin,
+.token.constant,
+.token.boolean {
+	color: #ffe261;
 }
 
-.token.boolean, .token.constant, .token.deleted, .token.number, .token.property, .token.symbol, .token.tag {
-    color: #905
+.token.number {
+	color: #b381c5;
 }
 
-.token.attr-name, .token.builtin, .token.char, .token.inserted, .token.selector, .token.string {
-    color: #690
+.token.important,
+.token.atrule,
+.token.property,
+.token.keyword {
+	color: #40b4c4;
 }
 
-.language-css .token.string, .style .token.string, .token.entity, .token.operator, .token.url {
-    color: #9a6e3a;
-    background: hsla(0, 0%, 100%, .5)
+.token.doctype,
+.token.operator,
+.token.inserted,
+.token.tag,
+.token.class-name,
+.token.symbol {
+	color: #74dfc4;
 }
 
-.token.atrule, .token.attr-value, .token.keyword {
-    color: #07a
+.token.attr-name,
+.token.function,
+.token.deleted,
+.token.selector {
+	color: #eb64b9;
 }
 
-.token.class-name, .token.function {
-    color: #dd4a68
+.token.attr-value,
+.token.regex,
+.token.char,
+.token.string {
+	color: #b4dce7;
 }
 
-.token.important, .token.regex, .token.variable {
-    color: #e90
+.token.entity,
+.token.url,
+.token.variable {
+	color: #ffffff;
 }
 
-.token.bold, .token.important {
-    font-weight: 700
+/* The following rules are pretty similar across themes, but feel free to adjust them */
+.token.bold {
+	font-weight: bold;
 }
 
 .token.italic {
-    font-style: italic
+	font-style: italic;
 }
 
 .token.entity {
-    cursor: help
+	cursor: help;
+}
+
+.token.namespace {
+	opacity: 0.7;
 }

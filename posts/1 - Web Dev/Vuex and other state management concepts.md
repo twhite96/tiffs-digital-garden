@@ -10,7 +10,8 @@ https://vuex.vuejs.org/guide/getters.html#what-is-a-state-management-pattern
 
 This is a simple representation of the concept of "one way data flow", [[1 - Web Dev/Two-Way Data Binding#What is Two-Way Data binding|the opposite of which is 2-way data binding]]
 
-![](img/flow.png)
+![](public/images/flow.png)
+
 <div style="text-align: center;"><small><em><a href="https://vuex.vuejs.org/guide/getters.html#what-is-a-state-management-pattern">From the Vuex Docs</a></small></em></div>
 
 
