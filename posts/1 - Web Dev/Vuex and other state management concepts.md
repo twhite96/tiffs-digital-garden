@@ -10,9 +10,9 @@ https://vuex.vuejs.org/guide/getters.html#what-is-a-state-management-pattern
 
 This is a simple representation of the concept of "one way data flow", [[1 - Web Dev/Two-Way Data Binding#What is Two-Way Data binding|the opposite of which is 2-way data binding]]
 
-![](public/images/flow.png)
+![](../images/flow.png)
 
-<div style="text-align: center;"><small><em><a href="https://vuex.vuejs.org/guide/getters.html#what-is-a-state-management-pattern">From the Vuex Docs</a></small></em></div>
+<div style="text-align: center;"><small><em><a href="https://vuex.vuejs.org/#what-is-a-state-management-pattern">From the Vuex Docs</a></small></em></div>
 
 
 However, the simplicity quickly breaks down when we have **multiple components that share a common state**:
