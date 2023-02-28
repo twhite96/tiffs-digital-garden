@@ -1,3 +1,7 @@
+---
+aliases: [Two-Way Data binding, the opposite of which is 2-way data binding]
+---
+
 Some interesting tidbits
 
 https://vuex.vuejs.org/guide/getters.html#what-is-a-state-management-pattern
@@ -8,7 +12,7 @@ https://vuex.vuejs.org/guide/getters.html#what-is-a-state-management-pattern
 -   The **view**, a declarative mapping of the **state**;
 -   The **actions**, the possible ways the state could change in reaction to user inputs from the **view**.
 
-This is a simple representation of the concept of "one way data flow", [[1 - Web Dev/Two-Way Data Binding#What is Two-Way Data binding|the opposite of which is 2-way data binding]]
+This is a simple representation of the concept of "one way data flow", [[Two-Way Data Binding|the opposite of which is 2-way data binding]]
 
 ![](../images/flow.png)
 

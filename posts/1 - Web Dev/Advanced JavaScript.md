@@ -1,3 +1,7 @@
+---
+aliases: [Mathematical Composite Functions, composite function in math]
+---
+
 # About Promises
 
 ***Kyle Simpson's Comment***
@@ -13,7 +17,7 @@ https://www.linkedin.com/posts/aamir-muhammad-amin-a80a0421a_javascript-activity
 ## Currying and function composition in programming/JavaScript
 [Curry and Function Composition. Note: This is part of the “Composing… | by Eric Elliott | JavaScript Scene | Medium](https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983)
 
-When I was helping my cousin's son with his algebra homework, one of the questions was about creating a [[Mathematical Composite Functions#^a75ee8|composite function in math]]. When I looked it up it reminded me so much of *currying*. 
+When I was helping my cousin's son with his algebra homework, one of the questions was about creating a [[Mathematical Composite Functions|composite function in math]]. When I looked it up it reminded me so much of *currying*. 
 
 I asked on Twitter if I was the only one who saw the connection and I wasn't:
 

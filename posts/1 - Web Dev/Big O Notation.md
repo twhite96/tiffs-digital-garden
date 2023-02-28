@@ -1,3 +1,5 @@
+# Big O Notation
+
 *What is Big O Notation*
 
 > Speed of an algorithm is affected by the size of the input. As the size of the input increases, the [[1 - Web Dev/Time Complexity]] increases.

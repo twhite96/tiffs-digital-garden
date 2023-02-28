@@ -4,4 +4,4 @@
 
 - [React Hooks](#react-hooks)
 
-- [[Two Way Data Binding 1]] does not come free in React
+- [[Two-Way Data Binding]] does not come free in React
