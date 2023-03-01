@@ -274,6 +274,7 @@ hr {
     .container {
         min-width: 100%;
         overflow: hidden;
+    }
     .nav-bar
     {
         display: none;
