@@ -94,13 +94,14 @@ a:hover {
 /* Foooter section END */
 
 .markdown-rendered {
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.6em;
     min-width: 100%;
+    overflow: auto;
     background-color: var(--background-primary);
     color: var(--text-normal);
     font-family: var(--default-font);
-    padding: 1rem 1rem;
+    padding: 1em 1em;
 }
 
 .markdown-rendered code {
