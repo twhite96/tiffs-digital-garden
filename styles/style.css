@@ -23,6 +23,7 @@ a:hover {
     height: 100%;
     position: relative;
     flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 /* Foooter section BEGIN */

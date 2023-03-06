@@ -7,7 +7,7 @@ import PlausibleProvider from "next-plausible";
 // const firaCode = FiraCode({ subsets: ["latin"] });
 export default function App({ Component, pageProps }) {
   return (
-    <PlausibleProvider domain="mindstone.tuancao.me">
+    <PlausibleProvider domain="tiffnotes.dev">
       <Component {...pageProps} />
     </PlausibleProvider>
   );

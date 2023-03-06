@@ -1,5 +1,6 @@
 import * as React from 'react';
 import TreeView from '@mui/lab/TreeView';
+// import { Box, Button } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import TreeItem from '@mui/lab/TreeItem';
@@ -19,6 +20,11 @@ const TCTreeItem = styled(TreeItem)(({theme}) => ({
 
 
 export default function FolderTree(props) {
+    // const [expanded, setExpanded] = React.useState([]);
+    // const handleToggle = (event, nodeIds) => {
+    //   setExpanded(nodeIds);
+    // };
+
     const renderTree = (nodes) => (
         <TCTreeItem key={nodes.id} nodeId={nodes.id} label={nodes.name}>
             {Array.isArray(nodes.children)
@@ -31,6 +37,7 @@ export default function FolderTree(props) {
     // const childrenNodeIds = props.tree.children.map(aNode => {return aNode.id})
     const expandedNodes = [props.tree.id]
     return (
+
         <TreeView
             aria-label="rich object"
             defaultCollapseIcon={<ExpandMoreIcon/>}
