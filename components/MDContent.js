@@ -57,18 +57,15 @@ function MDContent({content, backLinks, handleOpenNewContent}) {
         <footer>
           <a
             rel='me'
-            style={{display: "none"}}
+            style={{ display: "none" }}
             href='https://hachyderm.io/@tiff'
           >
             Mastodon
           </a>
-          
+
           <p>
-            Powered by{" "}
-            <a href='https://github.com/TuanManhCao/digital-garden'>
-              Mind Stone
-            </a>
-            , © 2022
+            Powered by <a href='https://tiffanywhite.dev'>Tiffany White</a> & 🍺
+            , © 2023
           </p>
         </footer>
       </div>

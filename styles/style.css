@@ -100,7 +100,6 @@ a:hover {
 .markdown-rendered {
     font-size: 1.4rem;
     line-height: 1.6em;
-    min-width: 100%;
     overflow: auto;
     background-color: var(--background-primary);
     color: var(--text-normal);
